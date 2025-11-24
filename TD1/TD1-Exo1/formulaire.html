@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire TD1  </title>
+</head>
+<body>
+    <form action="script.php" method="POST"> 
+        Prénom : <input type="text" name="prenom" value=""><br>
+        Nom: <input type="text" name="nom" value=""><br>
+        Jesuiscaché :<input type="hidden" name="cherchecache" value="on ne me voit pas "><br>
+        Liste : 
+        <select name="liste">
+            <option value="enfant">Enfant</option>
+            <option value="ado">Ado</option>
+            <option value="adulte">Adulte</option>
+        </select>
+        <br>
+        <input type="radio" name="essairadio" value="c1">Etudiant<br>
+        <input type="radio" name="essairadio" value="c2">Vie active<br>
+        <input type="submit" name="submit" value="On soumet !"><br>
+    </form>
+</body>
+</html>
